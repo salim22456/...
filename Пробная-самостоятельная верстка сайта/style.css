@@ -1,0 +1,404 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav-section__bg {
+background-color: #C2EFD4;
+position: relative;
+height: 1000px;
+}
+
+.nav {
+  padding: 40px 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  /* width: 80px;
+height: 40px; */
+  margin-right: 300px;
+  font-family: "Abril Fatface", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 38px;
+  color: #224f34;
+  text-decoration: none;
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav__item {
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+.nav__item:last-child {
+  margin-bottom: 0px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__link:hover {
+  color: #224f34;
+}
+
+.nav__cart {
+}
+
+.nav__cart-link {
+  margin-left: 180px;
+  position: relative;
+  top: 5px;
+  display: 5px;
+  padding: 5px;
+}
+
+.mybtn {
+  text-align: center;
+  padding: 10px 30px;
+  border: solid 1px black;
+  background: #c2efd4;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.mybtn:hover {
+  color: #fff;
+  background: #224f34;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.header {
+}
+
+.container {
+}
+
+.header__row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__content {
+  left: 0;
+}
+
+.header__title {
+  margin-top: 125px;
+  margin-bottom: 20px;
+  font-family: "Rufina", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 96px;
+  color: #224f34;
+}
+
+.header__text {
+  margin-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #267d49;
+}
+
+.header__btn {
+}
+
+.button {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  background: #224f34;
+  box-shadow: #224f34;
+  border-radius: 0px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 51px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 25px rgb(25, 70, 37);
+}
+
+.header__photo {
+  margin-top: 40px;
+  width: 570px;
+  height: 100px;
+}
+
+.featured-section {
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+.section-header {
+}
+
+.section-header__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  color: #224f34;
+}
+
+.section-header__description {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #224f34;
+}
+
+.section-header__description p {
+  margin: 0;
+}
+
+.products-wrapper {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.product-link {
+  margin-top: 34px;
+  /* margin-right: 100px; */
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in;
+}
+
+.product-link:hover {
+  opacity: 0.8;
+}
+
+.product {
+max-width: 330px;
+}
+
+.product__img {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.product__title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #373737;
+}
+
+.product__price {
+  text-align: center;
+}
+
+
+.product__price-old {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #454545;
+}
+
+.product__price-i {
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.product__price-new {
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #454545;
+}
+
+.star {
+  padding-top: 13px;
+  width: 18px;
+}
+
+.btn1 {
+  margin-top: 30px;
+text-align: center;
+}
+
+.mybtn1 {
+  display: inline-block;
+  color: #224F34;
+  text-align: center;
+  padding: 10px 60px;
+  border: solid 1px black;
+  background: #fff;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.mybtn1:hover {
+  color: #224F34;
+  background: #C2EFD4;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  padding-right: 5px;
+  /* padding-right: 12px; */
+  width: 19px;
+  height: 15px;
+}
+
+
+.fetured-our__products {
+
+}
+
+.nav__lists {
+   font-family: "Poppins", sans-serif;
+  /*display: flex;
+text-align: center; */
+display: table; /* элемент типа таблицы имеет ширину, зависящую от содержимого */
+width: auto; /* для уверенности что ширина будет зависеть от содержимого*/
+margin: 0 auto; /* устанавливаем отступ слева и справа в auto */
+list-style: none;
+font-size: 12px;
+padding: 0;
+}
+
+.nav__items {
+  font-family: "Poppins", sans-serif;
+  font-size: normal;
+   font-size: 22px; 
+  float: left;
+  margin-left: 60px;
+ margin-right: 60px;
+ margin-top: 40px;
+ margin-bottom: 60px;
+overflow: hidden;
+text-align: center;
+position: relative;
+cursor: default;
+padding-top: 3px;
+}
+
+.nav__items a {
+  font-family: "Poppins", sans-serif;
+  color: #454545;
+text-decoration: none;
+
+}
+
+.nav-navigation {
+
+}
+
+.products-wrapperss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.product__titles {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  color: #373737;
+}
+
+.blockss {
+  padding-top: 195px;
+}
+
+.bgcolor {
+  background-color: #C2EFD4;
+width: 1180px;
+}
+
+.product__imgs {
+  display: block;
+margin-left: 77px;
+}
+
+.text {
+  margin-bottom: 100px;
+}
+
+.header__contents {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 57px;
+  text-indent: 480px;
+  margin-bottom: 100px;
+  color: #224F34;
+}
+
+.opisanie {
+
+}
